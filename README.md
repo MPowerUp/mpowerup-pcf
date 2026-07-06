@@ -1,2 +1,2 @@
 # mpowerup-pcf
-MPU Published PCF components
+MPowerUp Published PCF components
