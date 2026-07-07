@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="MPowerUp" constructor="CustomDialogLauncher" version="0.0.1" display-name-key="CustomDialogLauncher" description-key="CustomDialogLauncher description" control-type="standard" >
+    <external-service-usage enabled="false">
+    </external-service-usage>
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="PageType" display-name-key="PageType" description-key="Type of dialog" of-type="Enum" usage="input" required="false" default-value="Custom Page">
+      <value name="Custom Page" display-name-key="Custom Page">custom</value>
+      <value name="Entity Record" display-name-key="Entity Record">entityrecord</value>
+      <value name="Entity List" display-name-key="Entity List">entitylist</value>
+      <value name="Web Resource" display-name-key="Web Resource">webresource</value>
+    </property>
+    <property name="EntityName" display-name-key="Entity Name" description-key="Logical name of the Entity" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="CustomPageName" display-name-key="Custom Page Name" description-key="Logical Name of the Custom Page" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="WebResourceName" display-name-key="Web Resource Name" description-key="Name of the Web Resource" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="Title" display-name-key="Title" description-key="Title of the dialog" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="EntityId" display-name-key="Entity Id" description-key="Id of the Entity Record" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="RecordId" display-name-key="Record Id" description-key="Id of the Record" of-type="SingleLine.Text" usage="input" required="false" />
+    <property name="LaunchTrigger" display-name-key="Launch Trigger" description-key="Trigger to launch the dialog" of-type="TwoOptions" usage="bound" required="true" default-value="false" />
+    <resources>
+      <code path="index.ts" order="1"/>
+    </resources>
+  </control>
+</manifest>
