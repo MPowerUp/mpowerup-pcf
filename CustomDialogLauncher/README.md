@@ -1,6 +1,6 @@
 # Custom Dialog Launcher
 
-A PCF control that lets you launch Dataverse dialogs — Custom Pages, Entity Records, Entity Lists, or Web Resources — directly from Canvas Apps and Model-driven Apps, driven entirely by Power Fx.
+A PCF control that lets you launch Dataverse dialogs — Custom Pages, Entity Records, Entity Lists, or Web Resources — directly from Canvas Apps, driven entirely by Power Fx.
 
 ## Why
 
@@ -8,7 +8,6 @@ Canvas Apps don't natively expose a clean way to open a Custom Page, an entity r
 
 ## Supported apps
 - ✅ Canvas Apps
-- ✅ Model-driven Apps
 
 ## How it works
 
