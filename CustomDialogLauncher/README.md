@@ -39,4 +39,4 @@ Bind `varLaunchDialog` to **Launch Trigger**, and unpack `varLaunchOptions` fiel
 
 1. Download the managed solution from the [latest release](https://github.com/praveen0mpowerup/mpowerup-pcf-controls/releases/latest).
 2. Import it into your Dataverse environment (Solutions → Import solution).
-3. Add **Custom Dialog Launcher** to your Canvas App or Model-driven form from the components picker.
+3. Add **Custom Dialog Launcher** to your Canvas App from the components picker.
