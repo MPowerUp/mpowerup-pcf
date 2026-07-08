@@ -1,6 +1,6 @@
 # Custom Dialog Launcher
 
-A PCF control that lets you launch Dataverse dialogs — Custom Pages, Entity Records, Entity Lists, or Web Resources — directly from Canvas Apps, driven entirely by Power Fx.
+A PCF control that lets you launch Dataverse dialogs — Custom Pages, Entity Records, Entity Lists, or Web Resources directly from Canvas Apps, driven entirely by Power Fx.
 
 ## Why
 
@@ -40,3 +40,7 @@ Bind `varLaunchDialog` to **Launch Trigger**, and unpack `varLaunchOptions` fiel
 1. Download the managed solution from the [latest release](https://github.com/praveen0mpowerup/mpowerup-pcf-controls/releases/latest).
 2. Import it into your Dataverse environment (Solutions → Import solution).
 3. Add **Custom Dialog Launcher** to your Canvas App from the components picker.
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/praveen0mpowerup/mpowerup-pcf-controls).
