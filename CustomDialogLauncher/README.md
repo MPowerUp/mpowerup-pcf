@@ -43,4 +43,4 @@ Bind `varLaunchDialog` to **Launch Trigger**, and unpack `varLaunchOptions` fiel
 
 ## License
 
-This project is licensed under the [MIT License](https://github.com/praveen0mpowerup/mpowerup-pcf-controls).
+This project is licensed under the [MIT License](https://github.com/MPowerUp/mpowerup-pcf/blob/main/LICENSE).
